@@ -6,7 +6,7 @@ import { MdMenu, MdArrowForward, MdRemoveRedEye } from "react-icons/md";
 import { IoMdTime } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
-		<Section background="url(https://ukit.top/quarkly/2/14.webp) 100% 100% no-repeat,linear-gradient(0deg, #000000, #000000)" padding="46px 0 0px 0" lg-background="url(https://ukit.top/quarkly/2/Speaker.png) 50% -100%/700px no-repeat,linear-gradient(0deg, #000000, #000000)" sm-background="url(https://ukit.top/quarkly/2/Speaker.png) 50% -50%/700px no-repeat,linear-gradient(0deg, #000000, #000000)">
+		<Section background="url(https://ukit.top/quarkly/2/14.webp) 100% 100% no-repeat,linear-gradient(0deg, #000000, #000000)" padding="46px 0 0px 0" lg-background="url(https://ukit.top/quarkly/2/4-16-.webp) 50% -100%/700px no-repeat,linear-gradient(0deg, #000000, #000000)" sm-background="url(https://ukit.top/quarkly/2/4-16-.webp) 50% -50%/700px no-repeat,linear-gradient(0deg, #000000, #000000)">
 			<Stack>
 				{"    "}
 				<StackItem width="50%" display="flex">
@@ -1016,6 +1016,7 @@ export default (() => {
 					justify-content="center"
 					sm-flex-direction="column"
 					sm-padding="0px 0px 35px 0px"
+					lg-flex-direction="column"
 				/>
 				{"        "}
 				<Text
@@ -1026,6 +1027,7 @@ export default (() => {
 					letter-spacing="2.4px"
 					lg-font="normal 500 24px/31px Arvo, serif"
 					sm-margin="35px 0px 24px 0px"
+					lg-margin="20px 0px 20px 0px"
 				>
 					Ready to get started?{"\n\n"}
 				</Text>
@@ -1042,6 +1044,7 @@ export default (() => {
 					color="#212121"
 					margin="0px 0px 0px 28px"
 					sm-margin="0px 0px 11px 0px"
+					lg-margin="0px 0px 10px 0px"
 				>
 					READ FAQ{"\n\n"}
 				</Button>
@@ -1055,6 +1058,7 @@ export default (() => {
 					color="#ffffff"
 					margin="0px 0px 0px 14px"
 					sm-margin="0px 0px 0px 0px"
+					lg-margin="0px 0px 20px 0px"
 				>
 					REQUEST{"\n\n\n\n"}
 				</Button>
@@ -1168,7 +1172,7 @@ export default (() => {
 					align-items="center"
 					flex-direction="column"
 					background="url(https://ukit.top/quarkly/2/4-14-.webp),linear-gradient(180deg, rgba(235, 242, 243, 0.9) 28.65%, rgba(218, 218, 218, 0) 100%)"
-					padding="50px 0px 308px 0px"
+					padding="50px 0px 300px 0px"
 				/>
 				{"        "}
 				<Text
