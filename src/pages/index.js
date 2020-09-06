@@ -12,7 +12,7 @@ export default (() => {
 				<StackItem width="50%" display="flex">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
-					<Image width="118px" src="https://ukit.top/quarkly/2/4-15-.webp" height="39px" />
+					<Image loading="lazy" width="118px" src="https://ukit.top/quarkly/2/4-15-.webp" height="39px" />
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -65,7 +65,7 @@ export default (() => {
 					>
 						Universal Music{" "}
 						<br />
-						Group and Brands{"\n\n"}
+						Group and Brands
 					</Text>
 					<Button
 						background="#F05638;"
@@ -76,7 +76,7 @@ export default (() => {
 						border-radius="50px"
 						color="#ffffff"
 					>
-						LEARN MORE{"\n\n"}
+						LEARN MORE
 					</Button>
 					{"    "}
 				</StackItem>
@@ -97,7 +97,7 @@ export default (() => {
 						color="--grey"
 						letter-spacing="2.4px"
 					>
-						AWESOME FEATURE{"\n\n"}
+						AWESOME FEATURE
 					</Text>
 					<Text
 						font="--headline2"
@@ -110,7 +110,7 @@ export default (() => {
 						sm-width="60%"
 						sm-margin="18px 0px 30px 0px"
 					>
-						Beautiful and Fully Isolated{"\n\n"}
+						Beautiful and Fully Isolated.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -127,9 +127,15 @@ export default (() => {
 						padding="0px 0px 72px 0px"
 					/>
 					{"        "}
-					<Image width="229px" height="165px" src="https://ukit.top/quarkly/2/4-1-.webp" object-position="-50% 0%" />
+					<Image
+						loading="lazy"
+						width="229px"
+						height="165px"
+						src="https://ukit.top/quarkly/2/4-1-.webp"
+						object-position="-50% 0%"
+					/>
 					<Text font="--button" margin="12px 0px 17px 0px" display="inline-block" letter-spacing="2.4px">
-						A4 PAPER{"\n\n"}
+						A4 PAPER
 					</Text>
 					<Text
 						font="--base"
@@ -142,7 +148,7 @@ export default (() => {
 						<br />
 						Lenovo is in hot water this{" "}
 						<br />
-						week after pre-installing{"\n\n"}
+						week after pre-installing
 					</Text>
 					{"    "}
 				</StackItem>
@@ -168,9 +174,15 @@ export default (() => {
 					/>
 					{"        "}
 					<Box />
-					<Image width="198px" height="148px" src="https://ukit.top/quarkly/2/4-2-.webp" object-position="-50% 0%" />
+					<Image
+						loading="lazy"
+						width="198px"
+						height="148px"
+						src="https://ukit.top/quarkly/2/4-2-.webp"
+						object-position="-50% 0%"
+					/>
 					<Text font="--button" margin="12px 0px 17px 0px" display="inline-block" letter-spacing="2.4px">
-						EYEDROPER{"\n\n"}
+						EYEDROPER
 					</Text>
 					<Text
 						font="--base"
@@ -183,7 +195,7 @@ export default (() => {
 						<br />
 						new iPhone apps pop up{" "}
 						<br />
-						every week, but which{"  \n\n\n\n"}
+						every week, but which{"  "}
 					</Text>
 					<Icon
 						category="md"
@@ -207,9 +219,15 @@ export default (() => {
 						padding="0px 0px 72px 0px"
 					/>
 					{"        "}
-					<Image width="229px" height="165px" src="https://ukit.top/quarkly/2/4-3-.webp" object-position="-50% 0%" />
+					<Image
+						loading="lazy"
+						width="229px"
+						height="165px"
+						src="https://ukit.top/quarkly/2/4-3-.webp"
+						object-position="-50% 0%"
+					/>
 					<Text font="--button" margin="12px 0px 17px 0px" display="inline-block" letter-spacing="2.4px">
-						CROWN{"\n\n"}
+						CROWN
 					</Text>
 					<Text
 						font="--base"
@@ -222,7 +240,7 @@ export default (() => {
 						<br />
 						smartphone can be pretty{" "}
 						<br />
-						great, but who has the arm{"\n\n\n\n"}
+						great, but who has the arm
 					</Text>
 					{"    "}
 				</StackItem>
@@ -244,7 +262,7 @@ export default (() => {
 						letter-spacing="2.4px"
 						sm-font="normal 500 30px/48px Arvo, serif"
 					>
-						News feed{"\n\n"}
+						News feed
 					</Text>
 					<Text
 						font="--base"
@@ -255,7 +273,7 @@ export default (() => {
 					>
 						Watching a movie on your smartphone can be pretty{" "}
 						<br />
-						great, but who has the arm{"\n\n"}
+						great, but who has the arm
 					</Text>
 					{"    "}
 				</StackItem>
@@ -288,6 +306,7 @@ export default (() => {
 						border-radius="8px 8px 0px 0px"
 					>
 						<Image
+							loading="lazy"
 							width="229px"
 							height="165px"
 							src="https://ukit.top/quarkly/2/4-5-.webp"
@@ -302,12 +321,12 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="--dark"
 					>
-						The number of protons{"\n\n"}
+						The number of protons
 					</Text>
 					<Text font="normal 500 14px/26px --fontFamily-googleOpenSans" margin="6px 0px 113px 25px" display="inline-block" color="--grey">
 						Apple Inc has decided to launch the
 						<br />
-						much awaited Apple Watch in the{" \n\n\n\n"}
+						much awaited Apple Watch in the{" "}
 					</Text>
 					<Box
 						display="flex"
@@ -326,13 +345,13 @@ export default (() => {
 								padding="0px 0px 0px 25px"
 							/>
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 0px 0px 10px" display="inline-block" color="--grey">
-								1 JUNE 2015{"\n\n \n\n\n\n"}
+								1 JUNE 2015{"\n\n "}
 							</Text>
 						</Box>
 						<Box width="50%" display="flex" align-items="center" justify-content="flex-end">
 							<Icon category="md" icon={MdRemoveRedEye} color="#DADADA" font="17px sans-serif" />
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 25px 0px 10px" display="inline-block" color="--grey">
-								343{"\n\n"}
+								343
 							</Text>
 						</Box>
 					</Box>
@@ -357,6 +376,7 @@ export default (() => {
 					{"        "}
 					<Box width="100%" height="240px" background="#FF6941" padding="0px 0px 0px 0px">
 						<Image
+							loading="lazy"
 							width="100%"
 							src="https://ukit.top/quarkly/2/4-6-.webp"
 							object-position="-50% 0%"
@@ -372,12 +392,12 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="--dark"
 					>
-						Sport Stadium Birdview{" \n\n"}
+						Sport Stadium Birdview{" "}
 					</Text>
 					<Text font="normal 500 14px/26px --fontFamily-googleOpenSans" margin="6px 0px 113px 25px" display="inline-block" color="--grey">
 						Apple Inc has decided to launch the
 						<br />
-						much awaited Apple Watch in the{" \n\n\n\n"}
+						much awaited Apple Watch in the{" "}
 					</Text>
 					<Box
 						display="flex"
@@ -396,13 +416,13 @@ export default (() => {
 								padding="0px 0px 0px 25px"
 							/>
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 0px 0px 10px" display="inline-block" color="--grey">
-								1 JUNE 2015{"\n\n \n\n\n\n"}
+								1 JUNE 2015{"\n\n "}
 							</Text>
 						</Box>
 						<Box width="50%" display="flex" align-items="center" justify-content="flex-end">
 							<Icon category="md" icon={MdRemoveRedEye} color="#DADADA" font="17px sans-serif" />
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 25px 0px 10px" display="inline-block" color="--grey">
-								343{"\n\n"}
+								343
 							</Text>
 						</Box>
 					</Box>
@@ -432,7 +452,13 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 						border-radius="8px 8px 0px 0px"
 					>
-						<Image width="229px" height="192px" src="https://ukit.top/quarkly/2/4-7-.webp" margin="27px 0px 0px 49px" />
+						<Image
+							loading="lazy"
+							width="229px"
+							height="192px"
+							src="https://ukit.top/quarkly/2/4-7-.webp"
+							margin="27px 0px 0px 49px"
+						/>
 					</Box>
 					<Text
 						font="--headline3"
@@ -441,14 +467,14 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="#E5E5E5"
 					>
-						The number of protons{"\n\n"}
+						The number of protons
 					</Text>
 					<Text font="normal 500 14px/26px --fontFamily-googleOpenSans" margin="6px 0px 87px 25px" display="inline-block" color="--grey">
 						Startup founders often have a more casual{" "}
 						<br />
 						or offbeat attitude in their dress, office{" "}
 						<br />
-						space and marketing, as compared to{" \n\n \n\n\n\n"}
+						space and marketing, as compared to{" \n\n "}
 					</Text>
 					<Box
 						display="flex"
@@ -467,13 +493,13 @@ export default (() => {
 								padding="0px 0px 0px 25px"
 							/>
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 0px 0px 10px" display="inline-block" color="--grey">
-								1 JUNE 2015{"\n\n \n\n\n\n"}
+								1 JUNE 2015{"\n\n "}
 							</Text>
 						</Box>
 						<Box width="50%" display="flex" align-items="center" justify-content="flex-end">
 							<Icon category="md" icon={MdRemoveRedEye} color="#DADADA" font="17px sans-serif" />
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 25px 0px 10px" display="inline-block" color="--grey">
-								343{"\n\n"}
+								343
 							</Text>
 						</Box>
 					</Box>
@@ -504,7 +530,13 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 						border-radius="8px 8px 0px 0px"
 					>
-						<Image width="278px" height="162px" src="https://ukit.top/quarkly/2/4-8-.webp" margin="50px 0px 0px 36px" />
+						<Image
+							loading="lazy"
+							width="278px"
+							height="162px"
+							src="https://ukit.top/quarkly/2/4-8-.webp"
+							margin="50px 0px 0px 36px"
+						/>
 					</Box>
 					<Text
 						font="--headline3"
@@ -513,7 +545,7 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="--dark"
 					>
-						The number of protons{"\n\n"}
+						The number of protons
 					</Text>
 					<Text
 						font="normal 500 14px/26px --fontFamily-googleOpenSans"
@@ -524,7 +556,7 @@ export default (() => {
 					>
 						Apple Inc has decided to launch the
 						<br />
-						much awaited Apple Watch in the{" \n\n\n\n"}
+						much awaited Apple Watch in the{" "}
 					</Text>
 					<Box
 						display="flex"
@@ -543,13 +575,13 @@ export default (() => {
 								padding="0px 0px 0px 25px"
 							/>
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 0px 0px 10px" display="inline-block" color="--grey">
-								1 JUNE 2015{"\n\n \n\n\n\n"}
+								1 JUNE 2015{"\n\n "}
 							</Text>
 						</Box>
 						<Box width="50%" display="flex" align-items="center" justify-content="flex-end">
 							<Icon category="md" icon={MdRemoveRedEye} color="#DADADA" font="17px sans-serif" />
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 25px 0px 10px" display="inline-block" color="--grey">
-								343{"\n\n"}
+								343
 							</Text>
 						</Box>
 					</Box>
@@ -582,6 +614,7 @@ export default (() => {
 						sm-padding="0px 10px 0px 0px"
 					>
 						<Image
+							loading="lazy"
 							width="477px"
 							height="177px"
 							src="https://ukit.top/quarkly/2/4-10-.webp"
@@ -597,12 +630,12 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="--dark"
 					>
-						Sport Stadium Birdview{"\n\n"}
+						Sport Stadium Birdview
 					</Text>
 					<Text font="normal 500 14px/26px --fontFamily-googleOpenSans" margin="6px 0px 113px 25px" display="inline-block" color="--grey">
 						Apple Inc has decided to launch the much awaited Apple Watch in the{" "}
 						<br />
-						upcoming month of April and has already received around five to six million{" \n\n"}
+						upcoming month of April and has already received around five to six million{" "}
 					</Text>
 					<Box
 						display="flex"
@@ -621,13 +654,13 @@ export default (() => {
 								padding="0px 0px 0px 25px"
 							/>
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 0px 0px 10px" display="inline-block" color="--grey">
-								1 JUNE 2015{"\n\n \n\n\n\n"}
+								1 JUNE 2015{"\n\n "}
 							</Text>
 						</Box>
 						<Box width="50%" display="flex" align-items="center" justify-content="flex-end">
 							<Icon category="md" icon={MdRemoveRedEye} color="#DADADA" font="17px sans-serif" />
 							<Text font="bold 10px/12px --fontFamily-googleMontserrat" margin="0px 25px 0px 10px" display="inline-block" color="--grey">
-								343{"\n\n"}
+								343
 							</Text>
 						</Box>
 					</Box>
@@ -651,7 +684,7 @@ export default (() => {
 						letter-spacing="2.4px"
 						sm-font="normal 500 30px/48px Arvo, serif"
 					>
-						Choose Pricing Plan{"\n\n"}
+						Choose Pricing Plan
 					</Text>
 					<Text
 						font="--base"
@@ -662,7 +695,7 @@ export default (() => {
 					>
 						This new-found knowledge may then be used by{" "}
 						<br />
-						engineers to create new tools and machines,{"\n\n\n\n"}
+						engineers to create new tools and machines,
 					</Text>
 					{"    "}
 				</StackItem>
@@ -704,7 +737,7 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="--dark"
 					>
-						BASIC PLAN{"\n\n"}
+						BASIC PLAN
 					</Text>
 					<Box display="flex" align-items="flex-end" margin="0px 0px 14px 0px">
 						<Text
@@ -714,7 +747,7 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							${"\n\n"}
+							$
 						</Text>
 						<Text
 							font="500 74px/91px --fontFamily-googleArvo"
@@ -723,10 +756,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							29{"\n\n"}
+							29
 						</Text>
 						<Text font="300 20px/25px --fontFamily-googleArvo" margin="0px 0px 13px 0px" display="inline-block" color="#9FA3A7">
-							/mo{"\n\n\n\n"}
+							/mo
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 8px 0px">
@@ -737,10 +770,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							5{"\n\n"}
+							5
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Projects{"\n\n"}
+							Projects
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 8px 0px">
@@ -751,10 +784,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							20{"\n\n"}
+							20
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Images{"\n\n"}
+							Images
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 29px 0px">
@@ -765,10 +798,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							9/5{"\n\n"}
+							9/5
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Support{"\n\n"}
+							Support
 						</Text>
 					</Box>
 					<Button
@@ -783,7 +816,7 @@ export default (() => {
 						border-style="solid"
 						color="#525252"
 					>
-						BUY NOW{"\n\n\n\n"}
+						BUY NOW
 					</Button>
 					{"    "}
 				</StackItem>
@@ -815,7 +848,7 @@ export default (() => {
 						right="30px"
 						left="auto"
 					>
-						POPULAR{"\n\n"}
+						POPULAR
 					</Text>
 					<Text
 						font="--button"
@@ -824,7 +857,7 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="--dark"
 					>
-						TEAM PLAN{"\n\n"}
+						TEAM PLAN
 					</Text>
 					<Box display="flex" align-items="flex-end" margin="0px 0px 14px 0px">
 						<Text
@@ -834,7 +867,7 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							${"\n\n"}
+							$
 						</Text>
 						<Text
 							font="500 74px/91px --fontFamily-googleArvo"
@@ -843,10 +876,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							59{"\n\n"}
+							59
 						</Text>
 						<Text font="300 20px/25px --fontFamily-googleArvo" margin="0px 0px 13px 0px" display="inline-block" color="#9FA3A7">
-							/mo{"\n\n\n\n"}
+							/mo
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 8px 0px">
@@ -857,10 +890,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							10{"\n\n"}
+							10
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Projects{"\n\n"}
+							Projects
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 8px 0px">
@@ -871,10 +904,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							40{"\n\n"}
+							40
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Images{"\n\n"}
+							Images
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 29px 0px">
@@ -885,10 +918,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							12/7{"\n\n"}
+							12/7
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Support{"\n\n"}
+							Support
 						</Text>
 					</Box>
 					<Button
@@ -900,7 +933,7 @@ export default (() => {
 						border-radius="50px"
 						color="#ffffff"
 					>
-						BUY NOW{"\n\n"}
+						BUY NOW
 					</Button>
 					{"    "}
 				</StackItem>
@@ -930,7 +963,7 @@ export default (() => {
 						letter-spacing="2.4px"
 						color="--dark"
 					>
-						CORPORATE PLAN{"\n\n"}
+						CORPORATE PLAN
 					</Text>
 					<Box display="flex" align-items="flex-end" margin="0px 0px 14px 0px">
 						<Text
@@ -940,7 +973,7 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							${"\n\n"}
+							$
 						</Text>
 						<Text
 							font="500 74px/91px --fontFamily-googleArvo"
@@ -949,26 +982,26 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							199{"\n\n"}
+							199
 						</Text>
 						<Text font="300 20px/25px --fontFamily-googleArvo" margin="0px 0px 13px 0px" display="inline-block" color="#9FA3A7">
-							/mo{"\n\n\n\n"}
+							/mo
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 8px 0px">
 						<Text font="bold 14px/17px --fontFamily-googleMontserrat" margin="0px 6px 0px 0px" display="inline-block" color="--dark">
-							Unlimited{"\n\n\n\n"}
+							Unlimited
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Projects{"\n\n"}
+							Projects
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 8px 0px">
 						<Text font="bold 14px/17px --fontFamily-googleMontserrat" margin="0px 6px 0px 0px" display="inline-block" color="--dark">
-							Unlimited{"\n\n"}
+							Unlimited
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Images{"\n\n"}
+							Images
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 29px 0px">
@@ -979,10 +1012,10 @@ export default (() => {
 							letter-spacing="2.4px"
 							color="--dark"
 						>
-							24/7{"\n\n"}
+							24/7
 						</Text>
 						<Text font="500 13px/16px --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" display="inline-block" color="#9FA3A7">
-							Support{"\n\n"}
+							Support
 						</Text>
 					</Box>
 					<Button
@@ -997,7 +1030,7 @@ export default (() => {
 						border-color="#9FA3A7"
 						color="#525252"
 					>
-						BUY NOW{"\n\n\n\n"}
+						BUY NOW
 					</Button>
 					{"    "}
 				</StackItem>
@@ -1029,7 +1062,7 @@ export default (() => {
 					sm-margin="35px 0px 24px 0px"
 					lg-margin="20px 0px 20px 0px"
 				>
-					Ready to get started?{"\n\n"}
+					Ready to get started?
 				</Text>
 				<Button
 					font="--button"
@@ -1046,7 +1079,7 @@ export default (() => {
 					sm-margin="0px 0px 11px 0px"
 					lg-margin="0px 0px 10px 0px"
 				>
-					READ FAQ{"\n\n"}
+					READ FAQ
 				</Button>
 				<Button
 					background="#F05638;"
@@ -1060,7 +1093,7 @@ export default (() => {
 					sm-margin="0px 0px 0px 0px"
 					lg-margin="0px 0px 20px 0px"
 				>
-					REQUEST{"\n\n\n\n"}
+					REQUEST
 				</Button>
 				{"    "}
 			</StackItem>
@@ -1072,7 +1105,7 @@ export default (() => {
 				<StackItem width="55%" display="flex" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
 					{"        "}
-					<Image width="375px" src="https://ukit.top/quarkly/2/4-13-.webp" sm-width="100%" />
+					<Image loading="lazy" width="375px" src="https://ukit.top/quarkly/2/4-13-.webp" sm-width="100%" />
 					<Box
 						display="flex"
 						flex-direction="column"
@@ -1089,12 +1122,12 @@ export default (() => {
 							letter-spacing="2.4px"
 							sm-font="normal 500 30px/48px Arvo, serif"
 						>
-							Contact us{"\n\n"}
+							Contact us
 						</Text>
 						<Text font="normal 500 14px/26px --fontFamily-googleOpenSans" margin="6px 0px 0px 25px" display="inline-block" color="--grey">
 							This new-found knowledge may then be used by{" "}
 							<br />
-							engineers to create new tools and machines,{"\n\n \n\n\n\n"}
+							engineers to create new tools and machines,{"\n\n "}
 						</Text>
 					</Box>
 					{"    "}
@@ -1158,7 +1191,7 @@ export default (() => {
 						color="#ffffff"
 						margin="0px 0px 0px 14px"
 					>
-						BUY NOW{"\n\n\n\n\n\n"}
+						BUY NOW
 					</Button>
 					{"    "}
 				</StackItem>
@@ -1183,7 +1216,7 @@ export default (() => {
 					letter-spacing="2.4px"
 					sm-font="normal 500 30px/48px Arvo, serif"
 				>
-					Our contacts{"\n\n"}
+					Our contacts
 				</Text>
 				<Text
 					font="--base"
@@ -1194,7 +1227,7 @@ export default (() => {
 				>
 					This new-found knowledge may then be used by{" "}
 					<br />
-					engineers to create new tools and machines,{"\n\n\n\n\n\n"}
+					engineers to create new tools and machines,
 				</Text>
 				{"    "}
 			</StackItem>
@@ -1213,7 +1246,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" align-items="center" lg-justify-content="center" />
 					{"        "}
-					<Image width="118px" src="https://ukit.top/quarkly/2/4-15-.webp" height="39px" />
+					<Image loading="lazy" width="118px" src="https://ukit.top/quarkly/2/4-15-.webp" height="39px" />
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -1290,11 +1323,11 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					{"        "}
 					<Text color="rgba(200, 200, 200, 0.5)" font="normal 500 14px/22px --fontFamily-googleOpenSans">
-						© 2019 Landing. All rights reserved.{"\n\n"}
+						© 2019 Landing. All rights reserved.
 					</Text>
 					{"    "}
 				</StackItem>
-				{"    "}{"    "}
+				{"        "}
 			</Stack>
 		</Section>
 	</Theme>;
