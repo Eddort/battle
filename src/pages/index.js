@@ -6,13 +6,13 @@ import { MdMenu, MdArrowForward, MdRemoveRedEye } from "react-icons/md";
 import { IoMdTime } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
-		<Section background="url(https://ukit.top/quarkly/2/image-3-.png) 100% 100% no-repeat,linear-gradient(0deg, #000000, #000000)" padding="46px 0 0px 0" lg-background="url(https://ukit.top/quarkly/2/Speaker.png) 50% -100%/700px no-repeat,linear-gradient(0deg, #000000, #000000)" sm-background="url(https://ukit.top/quarkly/2/Speaker.png) 50% -50%/700px no-repeat,linear-gradient(0deg, #000000, #000000)">
+		<Section background="url(https://ukit.top/quarkly/2/14.webp) 100% 100% no-repeat,linear-gradient(0deg, #000000, #000000)" padding="46px 0 0px 0" lg-background="url(https://ukit.top/quarkly/2/Speaker.png) 50% -100%/700px no-repeat,linear-gradient(0deg, #000000, #000000)" sm-background="url(https://ukit.top/quarkly/2/Speaker.png) 50% -50%/700px no-repeat,linear-gradient(0deg, #000000, #000000)">
 			<Stack>
 				{"    "}
 				<StackItem width="50%" display="flex">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
-					<Image width="118px" src="https://ukit.top/quarkly/2/Landing.png" height="39px" />
+					<Image width="118px" src="https://ukit.top/quarkly/2/4-15-.webp" height="39px" />
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -127,7 +127,7 @@ export default (() => {
 						padding="0px 0px 72px 0px"
 					/>
 					{"        "}
-					<Image width="229px" height="165px" src="https://ukit.top/quarkly/2/Paper_Hand-1-.png" object-position="-50% 0%" />
+					<Image width="229px" height="165px" src="https://ukit.top/quarkly/2/4-1-.webp" object-position="-50% 0%" />
 					<Text font="--button" margin="12px 0px 17px 0px" display="inline-block" letter-spacing="2.4px">
 						A4 PAPER{"\n\n"}
 					</Text>
@@ -168,7 +168,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Box />
-					<Image width="198px" height="148px" src="https://ukit.top/quarkly/2/Eyedropper.png" object-position="-50% 0%" />
+					<Image width="198px" height="148px" src="https://ukit.top/quarkly/2/4-2-.webp" object-position="-50% 0%" />
 					<Text font="--button" margin="12px 0px 17px 0px" display="inline-block" letter-spacing="2.4px">
 						EYEDROPER{"\n\n"}
 					</Text>
@@ -207,7 +207,7 @@ export default (() => {
 						padding="0px 0px 72px 0px"
 					/>
 					{"        "}
-					<Image width="229px" height="165px" src="https://ukit.top/quarkly/2/Crown.png" object-position="-50% 0%" />
+					<Image width="229px" height="165px" src="https://ukit.top/quarkly/2/4-3-.webp" object-position="-50% 0%" />
 					<Text font="--button" margin="12px 0px 17px 0px" display="inline-block" letter-spacing="2.4px">
 						CROWN{"\n\n"}
 					</Text>
@@ -290,7 +290,7 @@ export default (() => {
 						<Image
 							width="229px"
 							height="165px"
-							src="https://ukit.top/quarkly/2/Fill.png"
+							src="https://ukit.top/quarkly/2/4-5-.webp"
 							object-position="-50% 0%"
 							margin="51px 0px 0px 31px"
 						/>
@@ -358,7 +358,7 @@ export default (() => {
 					<Box width="100%" height="240px" background="#FF6941" padding="0px 0px 0px 0px">
 						<Image
 							width="100%"
-							src="https://ukit.top/quarkly/2/Mask.png"
+							src="https://ukit.top/quarkly/2/4-6-.webp"
 							object-position="-50% 0%"
 							margin="0px 0px 0px 0px"
 							height="240px"
@@ -432,7 +432,7 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 						border-radius="8px 8px 0px 0px"
 					>
-						<Image width="229px" height="192px" src="https://ukit.top/quarkly/2/Neon_Like.png" margin="27px 0px 0px 49px" />
+						<Image width="229px" height="192px" src="https://ukit.top/quarkly/2/4-7-.webp" margin="27px 0px 0px 49px" />
 					</Box>
 					<Text
 						font="--headline3"
@@ -504,7 +504,7 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 						border-radius="8px 8px 0px 0px"
 					>
-						<Image width="278px" height="162px" src="https://ukit.top/quarkly/2/Cloud.png" margin="50px 0px 0px 36px" />
+						<Image width="278px" height="162px" src="https://ukit.top/quarkly/2/4-8-.webp" margin="50px 0px 0px 36px" />
 					</Box>
 					<Text
 						font="--headline3"
@@ -584,7 +584,7 @@ export default (() => {
 						<Image
 							width="477px"
 							height="177px"
-							src="https://ukit.top/quarkly/2/Revolver.png"
+							src="https://ukit.top/quarkly/2/4-10-.webp"
 							margin="42px 0px 0px 109px"
 							sm-margin="42px 0px 0px 0px"
 							sm-width="100%"
@@ -636,7 +636,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="70px 0 109px 0" background="rgba(0, 0, 0, 0) url(https://ukit.top/quarkly/2/Img.png) 0% 0% /cover no-repeat scroll padding-box" sm-background="#E1E9EB">
+		<Section padding="70px 0 109px 0" background="rgba(0, 0, 0, 0) url(https://ukit.top/quarkly/2/4-11-.webp) 0% 0% /cover no-repeat scroll padding-box" sm-background="#E1E9EB">
 			<Override slot="SectionContent" max-width="1200px" lg-width="95%" />
 			<Stack margin="0px 0px 0px 0px" gap="--cmp-stack-gap-small">
 				{"    "}
@@ -684,6 +684,7 @@ export default (() => {
 					padding="0px 0px 0px 0px"
 					margin="0px -16px 0px 0px"
 					sm-width="100%"
+					sm-margin="0px 0px 0px 0px"
 				>
 					<Override
 						slot="StackItemContent"
@@ -693,6 +694,7 @@ export default (() => {
 						padding="69px 0px 58px 0px"
 						background="#F8F8F8"
 						border-radius="6px 0px 0px 6px"
+						sm-border-radius="6px"
 					/>
 					{"        "}
 					<Text
@@ -796,6 +798,7 @@ export default (() => {
 						border-radius="6px"
 						position="relative"
 						height="455px"
+						sm-border-radius="6px"
 					/>
 					{"        "}
 					<Text
@@ -907,6 +910,7 @@ export default (() => {
 					padding="0px 0px 0px 0px"
 					margin="0px 0px 0px -16px"
 					sm-width="100%"
+					sm-margin="0px 0px 0px 0px"
 				>
 					<Override
 						slot="StackItemContent"
@@ -916,6 +920,7 @@ export default (() => {
 						padding="69px 0px 58px 0px"
 						background="#F8F8F8"
 						border-radius="0px 6px 6px 0px"
+						sm-border-radius="6px"
 					/>
 					{"        "}
 					<Text
@@ -999,7 +1004,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="116px 0 116px 0" background="rgba(0, 0, 0, 0) url(https://ukit.top/quarkly/2/Img-1-.png) 0% 0% /cover no-repeat scroll padding-box">
+		<Section padding="116px 0 116px 0" background="rgba(0, 0, 0, 0) url(https://ukit.top/quarkly/2/4-12-.webp) 0% 0% /cover no-repeat scroll padding-box">
 			<Override slot="SectionContent" max-width="1200px" />
 			<StackItem width="100%" display="flex" padding="0px 0px 0px 0px">
 				<Override
@@ -1063,7 +1068,7 @@ export default (() => {
 				<StackItem width="55%" display="flex" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
 					{"        "}
-					<Image width="375px" src="https://ukit.top/quarkly/2/Megaphone-1-.png" />
+					<Image width="375px" src="https://ukit.top/quarkly/2/4-13-.webp" sm-width="100%" />
 					<Box
 						display="flex"
 						flex-direction="column"
@@ -1162,7 +1167,7 @@ export default (() => {
 					slot="StackItemContent"
 					align-items="center"
 					flex-direction="column"
-					background="url(https://ukit.top/quarkly/2/Img-2-.png),linear-gradient(180deg, rgba(235, 242, 243, 0.9) 28.65%, rgba(218, 218, 218, 0) 100%)"
+					background="url(https://ukit.top/quarkly/2/4-14-.webp),linear-gradient(180deg, rgba(235, 242, 243, 0.9) 28.65%, rgba(218, 218, 218, 0) 100%)"
 					padding="50px 0px 308px 0px"
 				/>
 				{"        "}
@@ -1204,7 +1209,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" align-items="center" lg-justify-content="center" />
 					{"        "}
-					<Image width="118px" src="https://ukit.top/quarkly/2/Landing.png" height="39px" />
+					<Image width="118px" src="https://ukit.top/quarkly/2/4-15-.webp" height="39px" />
 					{"    "}
 				</StackItem>
 				{"    "}
