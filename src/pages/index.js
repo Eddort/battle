@@ -1,9 +1,15 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Image, Icon, Text, Button, Box, Input, Hr } from "@quarkly/widgets";
-import { Override, StackItem, Menu, Stack, Section, SocialMedia } from "@quarkly/components";
+import { Override, StackItem, Menu, Stack, Section as SectionComponent, SocialMedia } from "@quarkly/components";
 import { MdMenu, MdArrowForward, MdRemoveRedEye } from "react-icons/md";
 import { IoMdTime } from "react-icons/io";
+import LazyHydrate from "react-lazy-hydration";
+
+const Section = React.memo((props) => {
+	return <LazyHydrate whenVisible><SectionComponent {...props} /></LazyHydrate>
+});
+
 export default (() => {
 	return <Theme theme={theme}>
 		<Section background="url(https://ukit.top/quarkly/2/14.webp) 100% 100% no-repeat,linear-gradient(0deg, #000000, #000000)" padding="46px 0 0px 0" lg-background="url(https://ukit.top/quarkly/2/4-16-.webp) 50% -100%/700px no-repeat,linear-gradient(0deg, #000000, #000000)" sm-background="url(https://ukit.top/quarkly/2/4-16-.webp) 50% -50%/700px no-repeat,linear-gradient(0deg, #000000, #000000)">
